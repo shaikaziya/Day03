@@ -1,27 +1,27 @@
 1) For the given JSON iterate over all for loops (for, for in, for of, forEach)?
 Ans:- 
-var jsondata=[{"name":"aziya","subject":"javascript","gender":"female","city":"hyderabad"}]
+var jsondata=[{"name":"aziya","subject":"javascript","gender":"female","city":"hyderabad"}];
 //for loop
 
 for(var i=0;i<jsondata.length;i++){
-console.log(jsondata[i])
+console.log(jsondata[i]);
 }
 
 //for in loop
 
 for(var i in jsondata){
-console.log(jsondata[i])
+console.log(jsondata[i]);
 }
 
 
 2)Create your own resume data in JSON format?
 Ans:-
-var jsondata={"name":"aziya"}
-jsondata["studies"]="MTech"
-jsondata["country"]="India"
-jsondata["email"]="email@gmail.com"
-jsondata["Number"]=0123456789
-console.log(jsondata)
+var jsondata={"name":"aziya"};
+jsondata["studies"]="MTech";
+jsondata["country"]="India";
+jsondata["email"]="email@gmail.com";
+jsondata["Number"]=0123456789;
+console.log(jsondata);
 
 
 3)Read about the difference between window, screen and document in javascript?
